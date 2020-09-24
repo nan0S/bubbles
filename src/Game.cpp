@@ -55,9 +55,9 @@ void Game::start()
     std::cout << "Get to the other side of aquarium without touching the bubbles\n"
 	    		  "before running out of the time.\n"
 			  "Collect lightning green bubbles to aquire points and time.\n";
-    std::cout << "If you manage to complete the level before running out of the time\n"
-	    		  "you get 1 point for every 5 seconds of the left time.\n";
-    std::cout << "When you fail you lose 1 point + the points you earned in the current level.\n\n";
+    std::cout << "If you manage to complete the level before running out of the time,\n"
+	    		  "you get 1 point for every 5 seconds of the time left.\n";
+    std::cout << "When you fail you lose 1 point + all the points you earned in the current level.\n\n";
 
     std::cout << "Prepare to beat the 13 stages of the increasing level of difficulty.\n";
     std::cout << "Enjoy and good luck!\n\n";
